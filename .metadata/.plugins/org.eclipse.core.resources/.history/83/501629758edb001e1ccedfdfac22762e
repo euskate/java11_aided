@@ -1,0 +1,7 @@
+package sec1;
+
+public class ExceptionExam6 {
+	public static void main(String[] args) {
+		Class driver = Class.forName("oracle.jdbc.driver");
+	}
+}

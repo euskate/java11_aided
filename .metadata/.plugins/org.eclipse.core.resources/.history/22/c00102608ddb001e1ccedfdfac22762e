@@ -1,0 +1,10 @@
+package sec1;
+//
+class Animal { }
+class Dog extends Animal { }
+class Cat extends Animal { }
+public class ExceptionExam5 {
+	public static void main(String[] args) {
+		
+	}
+}

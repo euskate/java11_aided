@@ -1,0 +1,20 @@
+package exam;
+class Book {
+	private String name;
+	private int price;
+	public Book() {}
+	public Book(String name, int price) {
+		super();
+		this.name = name;
+		this.price = price;
+	}
+	
+}
+public class Exam7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

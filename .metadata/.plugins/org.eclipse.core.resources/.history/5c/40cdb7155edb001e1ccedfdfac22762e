@@ -1,0 +1,14 @@
+package sec1;
+class Outer2 {
+	private int num = 10;
+	private static int sNum = 20;
+	
+	static class Inner {
+		
+	}
+}
+public class StaticInnerClassExam {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+}

@@ -1,0 +1,11 @@
+package sec3;
+//Class 타입의 List Stream 방식 활용
+class Visitor {
+	private String name;
+	
+}
+public class StreamExam4 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+}

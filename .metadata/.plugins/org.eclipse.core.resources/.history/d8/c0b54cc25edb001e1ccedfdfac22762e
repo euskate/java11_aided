@@ -1,0 +1,22 @@
+package sec1;
+class Outer2 {	//외부 클래스
+	private int num = 10;
+	private static int sNum = 20;
+		
+	static class Inner {	//정적 내부 클래스
+		int inNum = 1000;
+		static int sInNum = 2000;
+		
+		void inMethod() {
+			System.out.println("내부 클래스의 인스턴스 변수 : inNum = "+inNum);
+			System.out.println("내부 클래스의 정적 멤버 변수 : sInNum = "+sInNum);
+			System.out.println("외부 클래스의 인스턴스 변수 : num = "+num);
+			System.out.println("외부 클래스이 정적 멤버 변수 : sNum = "+ sNum);
+		}
+	}
+}
+public class StaticInnerClassExam {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+}
