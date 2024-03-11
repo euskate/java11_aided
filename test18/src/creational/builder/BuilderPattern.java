@@ -1,5 +1,6 @@
 package creational.builder;
 //Builder Pattern : 멤버 필드와 같은 구성원을 하나 하나 쌓아 올려 객체를 생성하는 패턴
+//그러므로, Builder Pattern은 객체의 생성 단계를 캡슐화하여 구축 공정을 동일하게 이용하도록 하는 패턴
 class Student {
 	private int no;
 	private String name = "홍길동";
