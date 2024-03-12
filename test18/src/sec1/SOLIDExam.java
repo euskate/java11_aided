@@ -2,6 +2,7 @@ package sec1;
 
 public class SOLIDExam {
 	public static void main(String[] args) {
+		//얼마 만큼 효율적으로 클래스나 인터페이스를 설계할 수 있는가의 고민(원칙) => SOLID 5가지 원칙
 		//SOLID : 객체지향 프로그래밍(OOPS : Object Oriented Programming Software)의 5가지 설계원칙
 		//SRP(Single Responsibility Principle) : 단일 책임의 원칙 - "해당 모듈이 여러 대상 또는 액터들에 대해 책임을 모두 가져서는 안되고, 오로지 하나의 액터에 대해서만 책임을 져야 한다"는 원칙
 		//OCP(Open Closed Principle) : 개방 패쇄 원칙 - "확장에 대해 열려 있고, 수정에 대해서는 닫혀있어야 한다"는 원칙
