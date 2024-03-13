@@ -28,7 +28,11 @@
     <fullyQualifiedTypeName name="creational.builder.StudentBuilder"/>
     <fullyQualifiedTypeName name="structural.bridge.Triangle"/>
     <fullyQualifiedTypeName name="structural.bridge.Pentagon"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="behavioral.templatemethod.HouseTemplate"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
