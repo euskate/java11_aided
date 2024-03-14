@@ -1,7 +1,0 @@
-package sec3;
-//reduce() 활용하기
-public class StreamExam3 {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}
-}

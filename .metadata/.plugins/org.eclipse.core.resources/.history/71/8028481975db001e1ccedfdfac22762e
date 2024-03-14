@@ -1,7 +1,0 @@
-package sec3;
-//Class 타입의 Stream 방식
-public class StreamExam4 {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}
-}

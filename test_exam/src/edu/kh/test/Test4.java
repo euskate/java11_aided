@@ -1,42 +1,16 @@
 package edu.kh.test;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.kh.test4.model.Person;
 
 public class Test4 {
-
+	
 	public static void main(String[] args) {
-		String names = "김기태 이순신 강감찬 고주몽 부여온조"; //문자열
-		
-		List<IPInfo> ipList = new ArrayList<>();	//List
-		ipList.add(new IPInfo("192.168.0.191", "이성하"));
-		ipList.add(new IPInfo("192.168.1.132", "이원석"));
-		ipList.add(new IPInfo("192.168.3.24", "김기태"));
-		ipList.add(new IPInfo("192.168.1.3", "강감찬"));
-		
-		String str = "이순신";
-		
-		System.out.println("String에서 찾기");
-		if(names.contains(str)) {
-			System.out.println(str+"이 포함되어 있습니다.");
-		} else {
-			System.out.println(str+"이 포함되어 있지 않습니다.");
-		}
-		
-		System.out.println("\nArrayList에서 찾기");
 
-		boolean sw = false;
-		for(IPInfo i:ipList) {
-			if(i.getUser().equals(str)) {
-				sw = true;
-			}
+		Person[] pArr = new Person[3]; 	
+		pArr[0] = new Person("김기태", 43); pArr[1] = new Person("이성하", 54); pArr[2] = new Person("이예린", 61); //비어 있거나 초기화 되어 있지 않은 pArr 배열에 Person 객체를 생성하여 각 요소(0~2)에 생성된 객체를 대입
+		for(int i=0; i < pArr.length; i++) { //for(int i=0; i <= pArr.length; i++) { //실제 선언한 배열의 개수보다 더 많은 수의 반복 실행이 된다.(요청한 횟수가 배열수보다 더 크다.) => ArrayIndexOutOfBoundsException 발생   
+			System.out.println(pArr[i].getName());	//Person 의 배열요소인 pArr 객체가 초기화(값이 대입)되어 있지 않아 => NullPointerException이 발생
 		}
 		
-		if(sw) {
-			System.out.println(str+"이 포함되어 있습니다.");
-		} else {
-			System.out.println(str+"이 포함되어 있지 않습니다.");
-		}
 	}
-
 }

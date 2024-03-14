@@ -1,7 +1,0 @@
-package sec3;
-//String 타입의 List Stream 방식 활용
-public class StreamExam2 {
-	public static void main(String[] args) {
-		
-	}
-}
